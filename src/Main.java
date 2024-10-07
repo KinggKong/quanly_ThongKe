@@ -1,9 +1,10 @@
+import Action.MainAction;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
+        MainAction mainAction = new MainAction();
         int choose = 0;
         while (choose != 21) {
             System.out.println("========================MENU==========================");
