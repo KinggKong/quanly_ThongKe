@@ -16,4 +16,15 @@ public class Account {
     String accountNumber;
     Date createdAt;
     String codeAccount;
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", accountNumber='" + accountNumber + '\'' +
+                ", createdAt=" + createdAt +
+                ", codeAccount='" + codeAccount + '\'' +
+                '}';
+    }
 }
